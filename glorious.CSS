@@ -1,0 +1,559 @@
+#wrapper {
+    background: none;
+    background-color: #000000;
+}
+
+
+header a:link, header a:visited {
+    text-decoration: none; 
+    color: #dcc703; 
+}
+
+header a:hover {
+   text-decoration-line: underline;
+   color: #e7e6df;
+}
+
+body {
+    margin: 0;
+    background-repeat: no-repeat;
+    background-image: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    letter-spacing: 0.02em;
+ }
+ 
+ * { box-sizing: border-box;}
+
+
+header {
+    background-image: none;
+    background-position:right;
+    background-repeat: no-repeat;
+    padding: 1em;
+    background-image: linear-gradient(to top , #000000, #a31600);
+    box-shadow: 5px 5px 1px black;
+}
+
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color:#000000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3.5em;
+    letter-spacing: 0.02em;
+    font-weight: bold;
+    text-align: center;
+    color:  #d7d40b; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+nav {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: inherit;
+    text-align: center;
+   background-color: #000000;
+   
+} 
+
+nav a {
+
+    text-decoration: none;
+}
+
+nav a:link {
+    color: #e5c409; 
+  }
+  
+
+  nav a:visited {
+    color: #e5c409;
+  }
+  
+
+  nav a:hover {
+    color: #d9d9d6;
+    text-decoration-line: underline;
+  }
+
+  nav ul { 
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin:0; 
+    list-style-type: none;
+}
+
+nav li {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    letter-spacing: 0.02em;
+    border-bottom: 1px solid;
+}
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.02em;
+    font-size: 75px;
+    text-align: center;
+    color: #e5c409 ;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+#fallhero {
+    display: flex;
+    height: 500px;
+    margin-left: 15%;
+    margin-top: 10%;
+    background-image: url(fallpic.JPG);
+    background-repeat: no-repeat;
+    background-size: 90% 90%
+}
+
+#nineteencoverhero { 
+    height: 350px;
+    margin-bottom: 10%;
+    text-align: center;
+    background-image: url(1976cover.PNG);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#theprideandgloryhero { 
+    height: 350px;
+    margin-bottom: 10%;
+    text-align: center;
+    background-image: url(thepride&glory.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+#bailhero { 
+    height: 350px;
+    margin-bottom: 10%;
+    text-align: center;
+    background-image: url(bail.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#POEhero { 
+    height: 350px;
+    margin-bottom: 10%;
+    text-align: center;
+    background-image: url(POE\ 2.JPG);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#sleepgloriouslyhero { 
+    height: 350px;
+    margin-bottom: 10%;
+    text-align: center;
+    background-image: url(Sleep\ Gloriously.PNG);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#southergloryhero { 
+    height: 350px;
+    margin-bottom: 10%;
+    text-align: center;
+    background-image: url(southern\ glory\ egret\ cover\ art.JPG);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#sourtimeshero { 
+    height: 350px;
+    margin-bottom: 10%;
+    text-align: center;
+    background-image: url(sourtimes.JPG);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#Theglorioussihero { 
+    height: 350px;
+    margin-bottom: 10%;
+    text-align: center;
+    background-image: url(TheGloriousSi.JPG);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#thepartandparcelhero { 
+    height: 350px;
+    margin-bottom: 10%;
+    text-align: center;
+    background-image: url(thepartparcel.JPG);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#theiandihero { 
+    height: 350px;
+    margin-bottom: 10%;
+    text-align: center;
+    background-image: url(thei&i.JPEG);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#thegrotesquehero { 
+    height: 350px;
+    margin-bottom: 10%;
+    text-align: center;
+    background-image: url(thegrotesquebeautifulcover.JPG);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#inglorioushero { 
+    height: 350px;
+    margin-bottom: 10%;
+    text-align: center;
+    background-image: url(inglorious.JPG);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#guttagloryhero { 
+    height: 350px;
+    margin-bottom: 10%;
+    text-align: center;
+    background-image: url(guttaglory.JPG);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#plataoplomohero { 
+    height: 350px;
+    margin-bottom: 10%;
+    text-align: center;
+    background-image: url(plataoplomocover.JPG);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#theglorioustapehero { 
+    height: 350px;
+    margin-bottom: 10%;
+    text-align: center;
+    background-image: url(theglorioustapecover.JPG);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#closedsessionshero { 
+    height: 350px;
+    margin-bottom: 10%;
+    text-align: center;
+    background-image: url(CS\ 2.JPG);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#prideandglorycdhero { 
+    height: 350px;
+    margin-bottom: 10%;
+    text-align: center;
+    background-image: url(TP&CD.JPG);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#theglorioussiredvinylhero { 
+    height: 350px;
+    margin-bottom: 10%;
+    text-align: center;
+    background-image: url(TGSRV.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#theglorioussigoldvinylhero { 
+    height: 350px;
+    margin-bottom: 10%;
+    text-align: center;
+    background-image: url(TGSGV.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#theiandicdhero { 
+    height: 350px;
+    margin-bottom: 10%;
+    text-align: center;
+    background-image: url(I&ICD.JPG);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#southernglorycassetshero { 
+    height: 350px;
+    margin-bottom: 10%;
+    text-align: center;
+    background-image: url(southernglorycoaasettes.JPG);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#southernglorycdhero { 
+    height: 350px;
+    margin-bottom: 10%;
+    text-align: center;
+    background-image: url(southernglorycds.JPG);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#poevinylhero { 
+    height: 350px;
+    margin-bottom: 10%;
+    text-align: center;
+    background-image: url(POEvinyl.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#guttaglorycdhero { 
+    height: 350px;
+    margin-bottom: 10%;
+    text-align: center;
+    background-image: url(guttacd.JPG);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#sleepgloriouslycdhero { 
+    height: 350px;
+    margin-bottom: 10%;
+    text-align: center;
+    background-image: url(sleepcd.JPG);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#bailcdhero { 
+    height: 350px;
+    margin-bottom: 10%;
+    text-align: center;
+    background-image: url(bailcd.JPG);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.video-container {
+    display: flex;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+footer {
+    background-image: linear-gradient(to top , #000000, #a31600);
+    margin: auto;
+    font-size: 0.70em;
+    font-style: italic;
+    text-align: center;
+    color: #ffff;
+    padding: 1em;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #000000;
+    color: #FFFFFF;
+}
+
+.fa-twitter {
+    background: #000000;
+    color: #FFFFFF;
+}
+
+.fa-instagram {
+    background: #000000;
+    color: #FFFFFF;
+}
+
+.fa-youtube {
+    background: #000000;
+    color: #FFFFFF;
+}
+
+.fa-tiktok {
+    background: #000000;
+    color: #FFFFFF;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-left: 0.1em;
+    width: 90%;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+    width: 100%;
+}
+
+input,textarea {
+    margin-bottom: 0.5em;
+}
+
+#mobile {
+    display: inline;
+}
+
+#desktop {
+    display: none;
+}
+
+@media (min-width: 600px) {
+
+    form {
+        width: 90%;
+        display: grid;
+        grid-gap: 1em;
+        grid-template-columns: 10em 1fr;
+    }
+
+    input[type="submit"]{
+        grid-column: 2;
+        width: 9em;
+    }
+    
+    h1 {
+        font-size: 4.7em;
+        letter-spacing: 0.02em;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-right: 2em;
+    }
+
+    nav li {
+        width: 12em;
+        border-bottom: none;
+        font-size: 1.5em;
+        letter-spacing: 0.02em;
+    }
+
+    #flow {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #mobile {
+        display: none;
+    }
+
+
+    #desktop {
+        display: inline;
+    }
+
+    .video-container {
+        margin-left: 5em;
+        text-align: center;
+        margin-bottom: 5%;
+        }
+
+    #nineteencoverhero,
+    #theprideandgloryhero,
+    #bailhero,
+    #POEhero,
+    #sleepgloriouslyhero,
+    #southergloryhero,
+    #sourtimeshero,
+    #Theglorioussihero,
+    #thepartandparcelhero,
+    #theiandihero,
+    #thegrotesquehero,
+    #inglorioushero,
+    #guttagloryhero,
+    #plataoplomohero,
+    #theglorioustapehero,
+    #closedsessionshero,
+    #prideandglorycdhero,
+    #theglorioussiredvinylhero,
+    #theglorioussigoldvinylhero,
+    #theiandicdhero,
+    #southernglorycassetshero,
+    #southernglorycdhero,
+    #poevinylhero,
+    #guttaglorycdhero,
+    #sleepgloriouslycdhero,
+    #bailcdhero {
+        height: 650px;
+    
+    }
+}
+
+@media (min-width: 1024px){
+    #wrapper {
+        background-image: linear-gradient(to bottom , #3a1d1d, #a31600);
+        min-width: 960px ;
+        max-width: 2048px;
+        width: 10%;
+        margin-right: auto;
+        margin-left: auto;
+        box-shadow: 5px 5px 1px black;
+    }
+
+    body {
+        background-image: url(TheGloriousSi.JPG);
+        background-repeat: no-repeat;
+        background-attachment:scroll;
+        background-position:center;
+        background-size: cover;
+        color: #fff;
+        font-size: 20px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+     }
+
+}
